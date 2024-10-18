@@ -71,6 +71,7 @@
   border-radius: 8px;
 
   background: rgb(13, 19, 33);
+  cursor: pointer;
 }
 
 .contact-me {
@@ -188,6 +189,7 @@
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .btn-text {
@@ -248,3 +250,53 @@
 iframe {
   border-radius: 16px;
 }
+
+
+.s4-bg {
+  border-radius: 16px;
+  width: 364px;
+  height: 299px;
+  gap: 32;
+  padding: 40px;
+  margin: 0px 24px;
+}
+
+.s4-bg h2 {
+  margin: 8px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.s4-bg p {
+  margin: 8px 0px;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.s4-bg div> img{cursor: pointer;}
+.s4-bg a {
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.s4-info{display: flex;}
+.cell-1{ background: #FF4C1E0D;}
+.cell-2{ background: #004CE80D;}
+.cell-3{background: #FFDF000D}
