@@ -88,3 +88,163 @@
   display: flex;
   justify-content: center;
 }
+
+.section-2 {
+  width: 946px;
+  margin: 0 auto;
+}
+
+.sub-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.seq {
+  padding-bottom: 48px;
+  padding-top: 24px;
+}
+
+.description-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  /* I will Do Coding and Change The World */
+  position: static;
+  width: 390px;
+  height: 72px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16;
+  padding: 0px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.why-description {
+  /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+  position: static;
+  width: 468px;
+  height: 52px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16;
+  padding: 0px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.btn-2 {
+  /* Frame 7 */
+  position: static;
+  width: 171px;
+  height: 47px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 12px 20px 12px 20px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+
+.btn-text {
+  /* Learn More */
+  position: static;
+  width: 131px;
+  height: 23px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 12px 20px 12px 20px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.why-c1 {
+  display: flex;
+  padding: 48px 0px 48px 0px;
+}
+
+.why-c2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 48px 0px 48px 0px;
+}
+
+.why-c3 {
+  display: flex;
+  padding: 48px 0px 48px 0px;
+}
+
+.youtube-video {
+  width: 1140px;
+  height: 614px;
+  padding: 32px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin-bottom: 150px;
+}
+
+iframe {
+  border-radius: 16px;
+}
